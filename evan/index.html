@@ -1,0 +1,89 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="title" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="url" />
+  <meta property="og:image" content="image" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:description" content="description" />
+  <link rel="stylesheet" href="./style/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Tenor+Sans&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <title>Stage Développement de site.</title>
+</head>
+
+<body>
+  <div class="hero">
+    <h1>Bonjour le monde
+      <div class="smiley">
+        <img
+          src="https://th.bing.com/th/id/R.ff444adedcbe26d15630adac64b384ef?rik=GDP%2fDFX9DIKZeA&riu=http%3a%2f%2fwww.emoji.co.uk%2ffiles%2femoji-one%2fsmileys-people-emoji-one%2f1337-waving-hand-sign.png&ehk=mJtrse4NVzuWiRg1%2fLqSe%2bejVk5BnRAcqmOHu5Ep74M%3d&risl=&pid=ImgRaw&r=0"
+          width="80px">
+    </h1>
+  </div>
+  </div>
+
+  <div class="form">
+    Voici mon formulaire de contact
+  </div>
+  <script src="./js/main.js"></script>
+  <div class="formulairee">
+
+    <!--<div class="texte">
+      Nom
+    </div>
+
+    <span id="easi_fieldspan_LastName"><input id="fld_LastName" maxlength="800" type="text" name="fld_LastName"
+        label="Nom" mandatory="true"></span>-->
+
+<form action="test.php" method="POST">
+
+    <label for="lastName" class="texte">Nom de famille</label><br>
+    <input type="text" name="lastName" id="lastName"><br>
+
+    <label for="Name" class="texte">Prénom</label><br>
+    <input type="text" name="Name" id="Name"><br>
+
+    <label for="Postal" class="texte">Code Postal</label><br>
+    <input type="text" name="Postal" id="Postal"><br>
+
+    <label for="Ville" class="texte">Ville</label><br>
+    <input type="text" name="Ville" id="Ville"><br>
+
+    <label for="Région" class="texte">Région</label><br>
+    <input type="text" name="Région" id="Région"><br>
+
+    <label for="Pays" class="texte">Pays</label><br>
+    <input type="text" name="Pays" id="Pays"><br>
+
+    <label for="Numéro" class="texte">Numéro De Téléphone</label><br>
+    <input type="text" name="Numéro" id="Numéro"><br>
+
+    <label for="email" class="texte">Adresse E-Mail</label><br>
+    <input type="text" name="email" id="email"><br>
+
+    <label for="Description" class="texte">Description De Votre Demande</label><br>
+    <textarea type="text" name="Description" id="Description"> </textarea> <!-- TextArea, on met de même au textarea "type", name" , "id"-->
+
+  <div class="envoyer">
+    <button>
+      Envoyer.
+    </button>
+  </div>
+
+</form>
+
+</body>
+</html>

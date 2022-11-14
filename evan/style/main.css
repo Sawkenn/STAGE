@@ -1,0 +1,42 @@
+.hero{
+  text-align: center;
+  color: blueviolet;
+  font-size: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: #3e3e3e;
+}
+
+.form{
+  text-align: center;
+  color: blue;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+.texte{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.envoyer{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.formulairee{
+  background-color: cornflowerblue;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.smiley{
+  transition-duration: 0.8s;
+  transition-property: transition;
+}
+
+.smiley:hover{
+  transform: rotate(360deg);
+}
